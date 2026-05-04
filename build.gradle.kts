@@ -9,6 +9,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    dokka(project(":kredacted-annotations"))
 }
 
 kotlin {

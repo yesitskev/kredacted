@@ -1,0 +1,1 @@
+sourceset_dependencies = '{":kredacted-annotations/main":[]}'
