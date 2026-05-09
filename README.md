@@ -13,7 +13,7 @@ Apply the Gradle plugin and add the annotations dependency:
 ```kotlin
 // build.gradle.kts
 plugins {
-    id("kredacted.plugin") version "1.0.0"
+    id("io.github.yesitskev.kredacted") version "0.1.0"
 }
 ```
 

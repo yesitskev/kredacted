@@ -37,7 +37,7 @@ gradlePlugin {
 
     plugins {
         create("kredacted") {
-            id = "kredacted.plugin"
+            id = "io.github.yesitskev.kredacted"
             displayName = "Kredacted"
             description = "Kotlin compiler plugin that rewrites toString on @Redacted " +
                 "classes and properties to mask sensitive values."

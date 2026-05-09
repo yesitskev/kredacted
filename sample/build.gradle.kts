@@ -1,5 +1,5 @@
 plugins {
-    id("kredacted.plugin")
+    id("io.github.yesitskev.kredacted")
 }
 
 dependencies {
