@@ -58,12 +58,12 @@ gradlePlugin {
 
 // Generate a BuildConfig.kt so the plugin can reference its own group/version
 // instead of hardcoding it in two places.
+val groupValue = project.group.toString()
+val versionValue = project.version.toString()
+
 val generateBuildConfig = tasks.register("generateBuildConfig") {
     val outputDir = layout.buildDirectory.dir("generated/sources/buildConfig/kotlin/main")
     outputs.dir(outputDir)
-
-    val groupValue = group.toString()
-    val versionValue = version.toString()
 
     doLast {
         val file = outputDir.get().file("kredacted/BuildConfig.kt").asFile
